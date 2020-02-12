@@ -9,7 +9,6 @@
  -webkit-box-pack: justify;
      -ms-flex-pack: justify;
          justify-content: space-between;
- width: 525px;
  
 }
 
@@ -18,6 +17,11 @@
  font-family: 'Roboto', sans-serif;
  font-weight: 700;
  color: #fff;
+ padding-right: 20px;
+}
+
+.nav .nav-item:last-child {
+  padding-right: 0;
 }
 
 .nav-item:hover {

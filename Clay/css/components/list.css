@@ -6,6 +6,7 @@ ul {
    max-width: 140px;
    display: flex;
    flex-direction: row;
+   margin: 0;
 }
 
 .social-list-item {

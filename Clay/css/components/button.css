@@ -12,6 +12,10 @@
 	padding: 14px 72px;
 }
 
+button:focus {
+	outline: none;
+}
+
 .button-primary {
 	background-color: #00D053;
 	color: #fff;

@@ -1,0 +1,37 @@
+.card {
+	position: relative;
+}
+
+.card:hover .card-overlay {
+	display: flex;
+}
+
+.card-overlay {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(52, 60, 74, 0.6);;
+}
+
+.card-overlay button {
+	display: inline-block;
+	position: relative;
+	width: 64px;
+	height: 64px;
+	border: 1px solid #00D053;
+	border-radius: 50%;
+	background-color: #00D053;
+	color: #fff; 
+}
+
+.card-overlay button.icon-search::before {
+	top: 16px;
+	left: 18px;
+	font-size: 27px;
+}
+

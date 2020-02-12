@@ -38,7 +38,7 @@
   font-size: 20px;
   position: absolute;
   top: 12px;
-  left: 4px;
+  left: 8px;
 }
 .icon-twitter:before {
   content: "\e903";
@@ -62,7 +62,7 @@
   font-size: 20px;
   position: absolute;
   top: 12px;
-  left: 4px;
+  left: 5px;
 }
 .icon-instagram:before {
   content: "\e907";
@@ -71,4 +71,6 @@
 .icon-search:before {
   content: "\e908";
   color: #fff;
+  position: absolute;
+  top: 3px;
 }

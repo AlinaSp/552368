@@ -16,6 +16,10 @@ body {
 	margin: 0;
 }
 
+.wrapper {
+	overflow: hidden;
+}
+
 .container {
 	width: 1120px;
 	margin: 0 auto;
@@ -53,9 +57,6 @@ p, ul, ol, figure {
 	margin: 0 0 15px 0;
 }
 
-* + p, * + ul, * + ol, * + figure {
-	margin-top: 15px;	
-}
 
 ul > li > ol,
 ul > li > ul,
@@ -84,7 +85,7 @@ h3 {
 	margin-top: 0.67em;	
 }
 
-.button {
+button, .button {
 	cursor: pointer;
 }
 
