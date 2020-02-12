@@ -1,0 +1,26 @@
+.nav {
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-orient: horizontal;
+ -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+         flex-direction: row;
+ -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+         justify-content: space-between;
+ width: 525px;
+ 
+}
+
+.nav .nav-item {
+ font-size: 20px;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 700;
+ color: #fff;
+}
+
+.nav-item:hover {
+    color: #00D053;
+    transition: 0.3s;
+}

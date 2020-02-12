@@ -1,0 +1,19 @@
+ul {
+   list-style: none;
+}
+
+.social-list {
+   max-width: 140px;
+   display: flex;
+   flex-direction: row;
+}
+
+.social-list-item {
+   margin-right: 44px;
+}
+
+.contact-list-item {
+   padding: 6px 0 12px 40px;
+   max-width: 220px;
+   position: relative;
+}

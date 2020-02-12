@@ -1,0 +1,33 @@
+.button {
+	display: inline-block;
+	border: 2px solid #00D053;
+	font-weight: bold;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 5px;
+	width: 280px;
+	height: 50px;
+	padding: 14px 72px;
+}
+
+.button-primary {
+	background-color: #00D053;
+	color: #fff;
+}
+
+.button-primary:hover {
+	background-color: transparent;
+	color: #00D053;
+}
+
+.button-secondary {
+	background-color: transparent;
+	color: #00D053;
+}
+
+.button-secondary:hover {
+	background-color: #00D053;
+	color: #fff;
+}
