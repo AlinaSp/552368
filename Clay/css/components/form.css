@@ -5,7 +5,7 @@
 	max-height: 550px;
 	box-shadow: 0px 4px 28px rgba(6, 6, 90, 0.06);
 	border-radius: 5px;
-	padding: 46px 0;
+	padding: 40px 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -18,12 +18,13 @@
 	border: none;
 	width: 280px;
 	height: 50px;
-	margin: 10px 0;
+	margin: 7px 0;
 	padding: 0 15px;
 }
 
 .form-title {
-	padding-bottom: 20px;
+	padding-bottom: 14px;
+	max-width: 280px;
 }
 
 .form .submit {
@@ -35,7 +36,7 @@
 	font-size: 14px;
 	color: #B4B4B4;
 	position: relative;
-	left: -103px;
+	left: -110px;
 	top: 6px;
 }
 
@@ -44,7 +45,7 @@
 	font-size: 14px;
 	color: #B4B4B4;
 	position: relative;
-	left: -74px;
+	left: -83px;
 	top: 6px;
 }
 
@@ -53,6 +54,6 @@
 	font-size: 14px;
 	color: #B4B4B4;
 	position: relative;
-	left: -103px;
+	left: -106px;
 	top: 6px;
 }

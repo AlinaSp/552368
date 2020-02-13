@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'brandon_grotesquemedium';
+    src: url('../../fonts/brandon-grotesque/brandon-grotesque-medium-587bd623e472a-webfont.woff2') format('woff2'),
+         url('../../fonts/brandon-grotesque/brandon-grotesque-medium-587bd623e472a-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

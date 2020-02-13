@@ -1,8 +1,6 @@
 .button {
 	display: inline-block;
 	border: 2px solid #00D053;
-	font-weight: bold;
-	font-family: 'Hammersmith One', sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
 	text-align: center;
