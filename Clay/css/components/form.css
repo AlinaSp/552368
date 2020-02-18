@@ -85,6 +85,6 @@
 		width: 290px;
 	}
 	.form-title {
-		font-size: 25px;
+		min-width: 214px;
 	}
 }
