@@ -1,5 +1,6 @@
 .card {
 	position: relative;
+	width: 100%;
 }
 
 .card:hover .card-overlay {
@@ -35,4 +36,3 @@
 	left: 18px;
 	font-size: 27px;
 }
-

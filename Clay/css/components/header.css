@@ -15,7 +15,8 @@
 }
 
 .header-inner {
-	width: 1300px;
+	width: 1330px;
+	padding: 0 15px;
 }
 
 .header-container {
@@ -33,7 +34,8 @@
 .header-container-center {
   flex-grow:0;
   flex-shrink:0;
-  flex-basis: auto;
+	flex-basis: auto;
+	text-align: center;
 }
 .header-container-end {
   justify-content: flex-end;
@@ -54,4 +56,13 @@
   padding-left: 70px;
 	color: #fff;
 	font-size: 20px;
+}
+
+@media (max-width: 530px) {
+	.header-hi-user{
+		display: none;
+	}
+	.header-container-start, .header-container-end {
+		margin-top: 6px;
+	}
 }

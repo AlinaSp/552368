@@ -1,5 +1,13 @@
+.gallery figure {
+  height: 290px;
+}
 
-
-.grid .figure img {
+.gallery img {
   height: 100%;
+}
+
+@media(max-width: 580px) {
+  .gallery img {
+    height: 300px;
+  }
 }

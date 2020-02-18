@@ -33,3 +33,10 @@ button:focus {
 	background-color: #00D053;
 	color: #fff;
 }
+
+@media(max-width: 480px) {
+	.button {
+		width: 214px;
+		padding: 14px 20px;
+	}
+}

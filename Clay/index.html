@@ -23,14 +23,27 @@
 						<nav class="nav">
 							<a class="nav-item" href="#">Techniques</a>
 							<a class="nav-item" href="#">About Us</a>
-							<a class="nav-item" href="#">Gallery</a>
+							<a class="nav-item" href="#gallery">Gallery</a>
 							<a class="nav-item" href="#">Plans</a>
 							<a class="nav-item" href="#">Reviews</a>
-							<a class="nav-item" href="#">Contacts</a>
+							<a class="nav-item" href="#contacts">Contacts</a>
+						</nav>
+						<button class="burger" id="burger">
+							<span class="burger-line"></span>
+							<span class="burger-line"></span>
+							<span class="burger-line"></span>
+						</button>
+						<nav class="burger-nav">
+							<a class="burger-nav-item" href="#">Techniques</a>
+							<a class="burger-nav-item" href="#">About Us</a>
+							<a class="burger-nav-item" href="#gallery">Gallery</a>
+							<a class="burger-nav-item" href="#">Plans</a>
+							<a class="burger-nav-item" href="#">Reviews</a>
+							<a class="burger-nav-item" href="#contacts">Contacts</a>
 						</nav>
 					</div>
 					<div class="header-container-end">
-						<span class="icon-search icon"></span>
+						<span class="icon-search icon header-icon-search"></span>
 						<span class="header-hi-user">Hi, Elena!</span>
 						<figure class="header-user-img">
 							<img src="img/user.jpg" alt="user">
@@ -42,41 +55,43 @@
   	</header>
 
   	<main class="main">
-  		<div class="hero section">
+  		<section class="section">
         <div class="section-background">
           <img src="img/hero-bg.jpg" alt="background">
 				</div>
 				<div class="section-overlay"></div>
-  			<div class="container section-foreground">
-					<div class="grid"> 
-						<div class="grid-item width-2-3">
-							<h1 class="hero-title">Clay lessons <br> from professionals</h1>
-							<p class="hero-text">Our professionals will teach you how to make beauty from clay. We’re the pros in our business and know everything about what we do. You will get unforgettable emotions, working with us. We have the newest equipment and the best teachers, who has a masters degree in it.</p>
-							<a class="button button-primary" href="#">Choose a plan</a>
-						</div>
-						<div class="grid-item width-1-3">
-							<form class="form" action="php/form_processing.php" method="POST">
-								<h3 class="form-title">Try unlimited one-day clay - only $50</h3>
-								<span class="input-label name"></span>
-								<input class="form-control" type="text" name="name">
-								<span class="input-label tel"></span>
-								<input class="form-control" type="tel" name="tel">
-								<span class="input-label email"></span>
-								<input class="form-control" type="email" name="email">
-								<input class="button button-secondary submit" type="submit" value="Send" name="send">
-							</form>
+  			<div class="section-foreground">
+					<div class="container">
+						<div class="grid"> 
+							<div class="grid-item pr-160 width-2-3 width-1-1-l">
+								<h1 class="section-hero-title">Clay lessons <br> from professionals</h1>
+								<p class="section-hero-text">Our professionals will teach you how to make beauty from clay. We’re the pros in our business and know everything about what we do. You will get unforgettable emotions, working with us. We have the newest equipment and the best teachers, who has a masters degree in it.</p>
+								<a class="button button-primary" href="#">Choose a plan</a>
+							</div>
+							<div class="grid-item width-1-3 width-1-1-l">
+								<form class="form" action="php/form_processing.php" method="POST">
+									<h3 class="form-title">Try unlimited one-day clay - only $50</h3>
+									<span class="input-label name"></span>
+									<input class="form-control" type="text" name="name">
+									<span class="input-label tel"></span>
+									<input class="form-control" type="tel" name="tel">
+									<span class="input-label email"></span>
+									<input class="form-control" type="email" name="email">
+									<input class="button button-secondary submit" type="submit" value="Send" name="send">
+								</form>
+							</div>
 						</div>
 					</div>
   			</div>
-			</div>
+			</section>
 		
-  		<div class="section">
+  		<section class="section gallery" id="gallery">
   			<div class="container">
 					<h2 class="section-title">Gallery</h2>
 					<p class="section-subtitle">With us, you will learn the art of clay and became a real professional in this sphere, because we have the best teachers and our students are always happy after the lessons.</p>
 				</div>
 				<div class="grid">
-					<div class="grid-item width-1-4">
+					<div class="grid-item width-1-4 width-1-3-l width-1-2-m width-1-1-s">
 						<div class="card">
 							<figure class="figure card-img">
 								<img src="img/1.jpg" alt="img">
@@ -86,7 +101,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="grid-item width-1-4">
+					<div class="grid-item width-1-4 width-1-3-l width-1-2-m width-1-1-s">
 						<div class="card">
 							<figure class="figure card-img">
 								<img src="img/2.jpg" alt="img">
@@ -96,7 +111,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="grid-item width-1-4">
+					<div class="grid-item width-1-4 width-1-3-l width-1-2-m width-1-1-s">
 						<div class="card">
 							<figure class="figure card-img">
 								<img src="img/3.jpg" alt="img">
@@ -106,7 +121,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="grid-item width-1-4">
+					<div class="grid-item width-1-4 width-1-3-l width-1-2-m width-1-1-s">
 						<div class="card">
 							<figure class="figure card-img">
 								<img src="img/4.jpg" alt="img">
@@ -116,7 +131,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="grid-item width-1-4">
+					<div class="grid-item width-1-4 width-1-3-l width-1-2-m width-1-1-s">
 						<div class="card">
 							<figure class="figure card-img">
 								<img src="img/5.jpg" alt="img">
@@ -126,7 +141,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="grid-item width-1-4">
+					<div class="grid-item width-1-4 width-1-3-l width-1-2-m width-1-1-s">
 						<div class="card">
 							<figure class="figure card-img">
 								<img src="img/6.jpg" alt="img">
@@ -136,7 +151,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="grid-item width-1-4">
+					<div class="grid-item width-1-4 width-1-3-l width-1-2-m width-1-1-s">
 						<div class="card">
 							<figure class="figure card-img">
 								<img src="img/7.jpg" alt="img">
@@ -146,7 +161,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="grid-item width-1-4">
+					<div class="grid-item width-1-4 width-1-3-l width-1-2-m width-1-1-s">
 						<div class="card">
 							<figure class="figure card-img">
 								<img src="img/8.jpg" alt="img">
@@ -157,15 +172,16 @@
 						</div>
 					</div>
 				</div>
-  		</div>
-  		<div class="section">
+			</section>
+			
+  		<section class="section" id="contacts">
   			<div class="container">
   				<h2 class="section-title pb-40">Contacts</h2>
   				<div class="grid">
-						<div class="grid-item width-3-4">
-							<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96877.01731862959!2d-73.99293180899686!3d40.64296248460078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c244b30adc86b5%3A0x6d367509a2f0fed6!2s2901%20Bedford%20Ave%2C%20Brooklyn%2C%20NY%2011210%2C%20USA!5e0!3m2!1sen!2sua!4v1581385809851!5m2!1sen!2sua" width="840" height="363" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+						<div class="grid-item width-3-4 width-2-3-l width-1-1-s">
+							<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96877.01731862959!2d-73.99293180899686!3d40.64296248460078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c244b30adc86b5%3A0x6d367509a2f0fed6!2s2901%20Bedford%20Ave%2C%20Brooklyn%2C%20NY%2011210%2C%20USA!5e0!3m2!1sen!2sua!4v1581385809851!5m2!1sen!2sua" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 						</div>
-						<div class="grid-item pl-30 width-1-4">
+						<div class="grid-item pl-30 width-1-4 width-1-3-l width-1-1-s">
 							<h3>Our office:</h3>
 							<ul class="contact-list">
 								<li class="contact-list-item"><span class="icon icon-phone"></span>(718) 951-5065 <br> (718) 951-5055</li>
@@ -176,30 +192,35 @@
 						</div>
 					</div>
   			</div>
-  		</div>
+  		</section>
   	</main>
 
-  	<footer class="section footer">
-			<div class="section-background">
-				<img src="img/footer-bg.jpg" alt="background">
-			</div>
-			<div class="section-overlay"></div>
-			<div class="container section-foreground">
-				<h3 class="section-footer-title">Our social networks</h3>	
-		  	<ul class="social-list">
-          <li class="social-list-item">
-            <a href="#"><span class="icon-facebook icon"></span></a>
-          </li>
-	  			<li class="social-list-item">
-	  				<a href="#"><span class="icon-twitter icon"></span></a>
-	  			</li>
-					<li class="social-list-item">
-	 					<a href="#"><span class="icon-instagram icon"></span></a>
-	  			</li>
-	  		</ul>
-  		</div>
+  	<footer class="footer">
+			<section class="section">
+				<div class="section-background">
+					<img src="img/footer-bg.jpg" alt="background">
+				</div>
+				<div class="section-overlay"></div>
+				<div class="container section-foreground">
+					<h3 class="section-title">Our social networks</h3>	
+					<ul class="social-list">
+						<li class="social-list-item">
+							<a href="#"><span class="icon-facebook icon"></span></a>
+						</li>
+						<li class="social-list-item">
+							<a href="#"><span class="icon-twitter icon"></span></a>
+						</li>
+						<li class="social-list-item">
+							<a href="#"><span class="icon-instagram icon"></span></a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			
   	</footer>
 
-  </div>
+	</div>
+	
+	<script src="js/script.js"></script>
 </body>
 </html>

@@ -43,10 +43,6 @@
   color: #fff;
 }
 
-.footer .section-title {
-  padding-bottom: 39px;
-}
-
 .section-img {
   height: 235px;
   width: auto;
@@ -54,6 +50,15 @@
   padding-left: 50px;
 }
 
+.section-hero-text {
+  max-width: 500px;
+  line-height: 26px;
+  padding: 30px 0 40px;
+}
+
+.section-hero-title {
+  padding-top: 65px;
+}
 
 .section-subtitle {
   color: #2f2d35;
@@ -66,6 +71,21 @@
   color: #f9f9f9;
 }
 
-.section-footer-title {
+.footer .section-title {
   margin: 15px 0 35px;
+}
+
+@media(max-width: 1130px) {
+  .section-hero-title {
+    padding: 0;
+  }
+}
+
+@media(max-width: 480px) {
+  .section-hero-title {
+    font-size: 60px;
+  }
+  .section {
+    padding: 30px 0;
+  }
 }
