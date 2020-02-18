@@ -84,4 +84,7 @@
 	.form {
 		width: 290px;
 	}
+	.form-title {
+		font-size: 25px;
+	}
 }
